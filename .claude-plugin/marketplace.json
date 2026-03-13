@@ -24,7 +24,7 @@
     {
       "name": "brand-guidelines",
       "source": "./brand-guidelines",
-      "description": "Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity.",
+      "description": "Applies brand colors and typography to artifacts for consistent visual identity and professional design standards.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "design",
@@ -35,7 +35,7 @@
     {
       "name": "canvas-design",
       "source": "./canvas-design",
-      "description": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles.",
+      "description": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters and static pieces.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "design",
@@ -46,7 +46,7 @@
     {
       "name": "changelog-generator",
       "source": "./changelog-generator",
-      "description": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "description": "Automatically creates user-facing changelogs from git commits by transforming technical commits into customer-friendly release notes.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "development",
@@ -66,9 +66,53 @@
       "skills": ["./"]
     },
     {
+      "name": "composio-skills",
+      "source": "./composio-skills",
+      "description": "Connect Claude to 500+ apps via Composio. Send emails, create issues, post to Slack, and take real actions across services.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "automation",
+      "tags": ["composio", "integration", "automation"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "connect-apps-plugin",
+      "source": "./connect-apps-plugin",
+      "description": "Plugin that lets Claude perform real actions across 500+ apps using Composio under the hood.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "automation",
+      "tags": ["composio", "plugin", "apps"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "connect-apps",
+      "source": "./connect-apps",
+      "description": "Connect Claude to any app. Send emails, create issues, post messages, update databases across Gmail, Slack, GitHub, Notion, and 1000+ services.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "automation",
+      "tags": ["connect", "apps", "integration"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "connect",
+      "source": "./connect",
+      "description": "Connect Claude to any app and take real actions across thousands of services.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "automation",
+      "tags": ["connect", "integration", "automation"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "content-research-writer",
       "source": "./content-research-writer",
-      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing feedback.",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "writing",
@@ -77,9 +121,31 @@
       "skills": ["./"]
     },
     {
+      "name": "developer-growth-analysis",
+      "source": "./developer-growth-analysis",
+      "description": "Analyzes developer growth metrics, engagement patterns, and community health for developer-focused products.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "analytics",
+      "tags": ["developer", "growth", "analytics"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "document-skills",
+      "source": "./document-skills",
+      "description": "Comprehensive document processing: create, edit, and analyze Word docs, PDFs, PowerPoint slides, and Excel spreadsheets.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["documents", "docx", "pdf", "pptx", "xlsx"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "domain-name-brainstormer",
       "source": "./domain-name-brainstormer",
-      "description": "Generates creative domain name ideas and checks availability across multiple TLDs.",
+      "description": "Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "marketing",
@@ -90,7 +156,7 @@
     {
       "name": "file-organizer",
       "source": "./file-organizer",
-      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better structures.",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "productivity",
@@ -101,7 +167,7 @@
     {
       "name": "image-enhancer",
       "source": "./image-enhancer",
-      "description": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity.",
+      "description": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "design",
@@ -123,11 +189,22 @@
     {
       "name": "invoice-organizer",
       "source": "./invoice-organizer",
-      "description": "Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.",
+      "description": "Automatically organizes invoices and receipts for tax preparation by extracting information and renaming files consistently.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "productivity",
       "tags": ["invoice", "finance", "organization"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "langsmith-fetch",
+      "source": "./langsmith-fetch",
+      "description": "Debug LangChain and LangGraph agents by automatically fetching and analyzing execution traces from LangSmith Studio.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["langsmith", "langchain", "debugging", "observability"],
       "strict": false,
       "skills": ["./"]
     },
@@ -145,7 +222,7 @@
     {
       "name": "mcp-builder",
       "source": "./mcp-builder",
-      "description": "Guides creation of high-quality MCP servers for integrating external APIs and services with LLMs.",
+      "description": "Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "development",
@@ -156,7 +233,7 @@
     {
       "name": "meeting-insights-analyzer",
       "source": "./meeting-insights-analyzer",
-      "description": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, and leadership style.",
+      "description": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "productivity",
@@ -165,9 +242,20 @@
       "skills": ["./"]
     },
     {
+      "name": "raffle-winner-picker",
+      "source": "./raffle-winner-picker",
+      "description": "Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["raffle", "random", "contest"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "skill-creator",
       "source": "./skill-creator",
-      "description": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge and workflows.",
+      "description": "Provides guidance for creating effective Claude Skills with specialized knowledge, workflows, and tool integrations.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "development",
@@ -176,9 +264,31 @@
       "skills": ["./"]
     },
     {
+      "name": "skill-share",
+      "source": "./skill-share",
+      "description": "Tools and workflows for sharing and distributing Claude Skills across teams and the community.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["skills", "sharing", "distribution"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "slack-gif-creator",
+      "source": "./slack-gif-creator",
+      "description": "Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "communication",
+      "tags": ["slack", "gif", "animation"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "tailored-resume-generator",
       "source": "./tailored-resume-generator",
-      "description": "Analyzes job descriptions and generates tailored resumes that highlight relevant experience and skills.",
+      "description": "Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "productivity",
@@ -187,9 +297,20 @@
       "skills": ["./"]
     },
     {
+      "name": "template-skill",
+      "source": "./template-skill",
+      "description": "A starter template for creating new Claude Skills with the correct structure, frontmatter, and best practices.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["template", "starter", "boilerplate"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "theme-factory",
       "source": "./theme-factory",
-      "description": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML pages with 10 pre-set themes.",
+      "description": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "design",
@@ -200,7 +321,7 @@
     {
       "name": "twitter-algorithm-optimizer",
       "source": "./twitter-algorithm-optimizer",
-      "description": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights.",
+      "description": "Analyze and optimize tweets for maximum reach using Twitter open-source algorithm insights to improve engagement and visibility.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "marketing",
@@ -209,9 +330,20 @@
       "skills": ["./"]
     },
     {
+      "name": "video-downloader",
+      "source": "./video-downloader",
+      "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["video", "download", "youtube"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
       "name": "webapp-testing",
       "source": "./webapp-testing",
-      "description": "Tests local web applications using Playwright for verifying frontend functionality and capturing screenshots.",
+      "description": "Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots.",
       "version": "1.0.0",
       "author": { "name": "liangxj1982" },
       "category": "development",
