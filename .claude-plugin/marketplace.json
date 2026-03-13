@@ -1,0 +1,223 @@
+{
+  "name": "awesome-claude-skills",
+  "owner": {
+    "name": "liangxj1982",
+    "email": ""
+  },
+  "metadata": {
+    "description": "A curated list of awesome Claude Skills for productivity across Claude.ai, Claude Code, and the Claude API.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/liangxj1982/awesome-claude-skills"
+  },
+  "plugins": [
+    {
+      "name": "artifacts-builder",
+      "source": "./artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component Claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["artifacts", "react", "frontend"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "brand-guidelines",
+      "source": "./brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "design",
+      "tags": ["brand", "design", "styling"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "canvas-design",
+      "source": "./canvas-design",
+      "description": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "design",
+      "tags": ["design", "art", "pdf", "png"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "changelog-generator",
+      "source": "./changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["changelog", "git", "release"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "source": "./competitive-ads-extractor",
+      "description": "Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "marketing",
+      "tags": ["ads", "competitive", "marketing"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "content-research-writer",
+      "source": "./content-research-writer",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing feedback.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "writing",
+      "tags": ["content", "research", "writing"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "source": "./domain-name-brainstormer",
+      "description": "Generates creative domain name ideas and checks availability across multiple TLDs.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "marketing",
+      "tags": ["domain", "naming", "branding"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "file-organizer",
+      "source": "./file-organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better structures.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["files", "organization", "productivity"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "image-enhancer",
+      "source": "./image-enhancer",
+      "description": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "design",
+      "tags": ["image", "enhance", "quality"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "internal-comms",
+      "source": "./internal-comms",
+      "description": "Helps write internal communications including 3P updates, newsletters, FAQs, status reports, and project updates.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "communication",
+      "tags": ["internal", "communication", "writing"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "invoice-organizer",
+      "source": "./invoice-organizer",
+      "description": "Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["invoice", "finance", "organization"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "lead-research-assistant",
+      "source": "./lead-research-assistant",
+      "description": "Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing outreach strategies.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "marketing",
+      "tags": ["leads", "sales", "research"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "mcp-builder",
+      "source": "./mcp-builder",
+      "description": "Guides creation of high-quality MCP servers for integrating external APIs and services with LLMs.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["mcp", "integration", "api"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "source": "./meeting-insights-analyzer",
+      "description": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, and leadership style.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["meeting", "analysis", "insights"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "skill-creator",
+      "source": "./skill-creator",
+      "description": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge and workflows.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["skills", "creation", "meta"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "tailored-resume-generator",
+      "source": "./tailored-resume-generator",
+      "description": "Analyzes job descriptions and generates tailored resumes that highlight relevant experience and skills.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "productivity",
+      "tags": ["resume", "career", "writing"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "theme-factory",
+      "source": "./theme-factory",
+      "description": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML pages with 10 pre-set themes.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "design",
+      "tags": ["theme", "design", "styling"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "twitter-algorithm-optimizer",
+      "source": "./twitter-algorithm-optimizer",
+      "description": "Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "marketing",
+      "tags": ["twitter", "social", "optimization"],
+      "strict": false,
+      "skills": ["./"]
+    },
+    {
+      "name": "webapp-testing",
+      "source": "./webapp-testing",
+      "description": "Tests local web applications using Playwright for verifying frontend functionality and capturing screenshots.",
+      "version": "1.0.0",
+      "author": { "name": "liangxj1982" },
+      "category": "development",
+      "tags": ["testing", "playwright", "webapp"],
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
